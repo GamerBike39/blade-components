@@ -19,11 +19,13 @@ This represents the variables of the component.
 To use these components in your views, you will need to use the following directive:
 
 ```sh
- <x-confirm-delete>
-                                        <x-slot name='subject'>
-                                           {{ $quiz->title }}
-                                        </x-slot>
-                                        <x-slot name="itemId">
-                                            {{ $quiz->id }}
-                                        </x-slot>
-                                    </x-confirm-delete>
+<x-confirm-delete>
+
+  <x-slot name='subject'>
+     {{ $quiz->title }}
+  </x-slot>
+  
+  <x-slot name="itemId">
+     {{ $quiz->id }}
+     </x-slot>
+  </x-confirm-delete>
