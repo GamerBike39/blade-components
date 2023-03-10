@@ -22,11 +22,11 @@ To use these components in your views, you will need to use the following direct
 <x-confirm-delete>
 
   <x-slot name='subject'>
-     {{ $quiz->title }}
+     {{ **** }}
   </x-slot>
   
   <x-slot name="itemId">
-     {{ $quiz->id }}
+     {{ $***->id }}
    </x-slot>
    
 </x-confirm-delete>
