@@ -2,7 +2,7 @@
 
 ### User's Guide
 
-After the prerequisites that require you to have Laravel, Blade and Tailwinds installed.
+you will need the TALL stack
 
 You have to put the files in the components folder.
 This folder is located in: 
