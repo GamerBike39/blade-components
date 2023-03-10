@@ -27,5 +27,6 @@ To use these components in your views, you will need to use the following direct
   
   <x-slot name="itemId">
      {{ $quiz->id }}
-     </x-slot>
-  </x-confirm-delete>
+   </x-slot>
+   
+</x-confirm-delete>
